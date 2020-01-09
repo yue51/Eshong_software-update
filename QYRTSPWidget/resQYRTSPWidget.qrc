@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/QYRTSPWidget">
+        <file alias="2_0">res/QYRTSPWidget/2_0.png</file>
+        <file alias="2_1">res/QYRTSPWidget/2_1.png</file>
+        <file alias="3_0">res/QYRTSPWidget/cross.png</file>
+        <file alias="3_1">res/QYRTSPWidget/cross_red.png</file>
+        <file alias="3_2">res/QYRTSPWidget/cross_hit.png</file>
+        <file alias="4_0">res/QYRTSPWidget/screen169.png</file>
+        <file alias="4_1">res/QYRTSPWidget/screen43.png</file>
+        <file alias="4_2">res/QYRTSPWidget/screenfull.png</file>
+        <file alias="7_1">res/QYRTSPWidget/audio.png</file>
+        <file alias="7_0">res/QYRTSPWidget/audio0ff.png</file>
+        <file alias="9_0">res/QYRTSPWidget/camera.png</file>
+        <file alias="6_0">res/QYRTSPWidget/close.png</file>
+        <file alias="11_0">res/QYRTSPWidget/pano.png</file>
+        <file alias="10_0">res/QYRTSPWidget/record.png</file>
+        <file alias="8_1">res/QYRTSPWidget/speek.png</file>
+        <file alias="8_0">res/QYRTSPWidget/speekoff.png</file>
+        <file alias="12_0">res/QYRTSPWidget/stream.png</file>
+        <file alias="5_0">res/QYRTSPWidget/full.png</file>
+        <file alias="16_0">res/QYRTSPWidget/1O2A.jpg</file>
+        <file alias="16_1">res/QYRTSPWidget/1O3P.jpg</file>
+        <file alias="16_2">res/QYRTSPWidget/1O4P.jpg</file>
+        <file alias="16_3">res/QYRTSPWidget/1P1A.jpg</file>
+        <file alias="16_4">res/QYRTSPWidget/2A.jpg</file>
+        <file alias="16_5">res/QYRTSPWidget/4P1O.jpg</file>
+        <file alias="16_6">res/QYRTSPWidget/6P1A.jpg</file>
+        <file alias="16_7">res/QYRTSPWidget/8P1O.jpg</file>
+        <file alias="17_0">res/QYRTSPWidget/half1.jpg</file>
+        <file alias="17_1">res/QYRTSPWidget/half2.jpg</file>
+        <file alias="10_1">res/QYRTSPWidget/record_on.png</file>
+        <file alias="12_1">res/QYRTSPWidget/stream_half.png</file>
+        <file alias="4_3">res/QYRTSPWidget/screenfull2.png</file>
+        <file alias="5_1">res/QYRTSPWidget/fulloff.png</file>
+        <file alias="3_3">res/QYRTSPWidget/cross_shadow.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QYDlgHotBar</class>
+ <widget class="QDialog" name="QYDlgHotBar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>40</width>
+    <height>326</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+border-width:0px;
+background-color:rgba(0,0,0,0);
+}</string>
+  </property>
+  <widget class="QPushButton" name="butAspect">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>292</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+background-color:rgba(0,0,0,10);
+border-image:url(&quot;:/QYRTSPWidget/4_0&quot;);
+}
+QPushButton:hover{
+background-color:rgba(0,0,0,40);
+}
+QPushButton:pressed{
+background-color:rgba(0,0,0,80);
+margin-left:2px;
+margin-top:2px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="KeepAspect" stdset="0">
+    <number>5</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butFull">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>4</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+background-color:rgba(0,0,0,10);
+border-image:url(&quot;:/QYRTSPWidget/5_0&quot;);
+}
+QPushButton:hover{
+background-color:rgba(0,0,0,40);
+}
+QPushButton:pressed{
+background-color:rgba(0,0,0,80);
+margin-left:2px;
+margin-top:2px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="KeepAspect" stdset="0">
+    <number>5</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butClose">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>40</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+background-color:rgba(0,0,0,10);
+border-image:url(&quot;:/QYRTSPWidget/6_0&quot;);
+}
+QPushButton:hover{
+background-color:rgba(0,0,0,40);
+}
+QPushButton:pressed{
+background-color:rgba(0,0,0,80);
+margin-left:2px;
+margin-top:2px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="KeepAspect" stdset="0">
+    <number>5</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butAudio">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>76</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+background-color:rgba(0,0,0,10);
+border-image:url(&quot;:/QYRTSPWidget/7_0&quot;);
+}
+QPushButton:hover{
+background-color:rgba(0,0,0,40);
+}
+QPushButton:pressed{
+background-color:rgba(0,0,0,80);
+margin-left:2px;
+margin-top:2px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="KeepAspect" stdset="0">
+    <number>5</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butSpeek">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>112</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+background-color:rgba(0,0,0,10);
+border-image:url(&quot;:/QYRTSPWidget/8_0&quot;);
+}
+QPushButton:hover{
+background-color:rgba(0,0,0,40);
+}
+QPushButton:pressed{
+background-color:rgba(0,0,0,80);
+margin-left:2px;
+margin-top:2px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="KeepAspect" stdset="0">
+    <number>5</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butCamera">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>148</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+background-color:rgba(0,0,0,10);
+border-image:url(&quot;:/QYRTSPWidget/9_0&quot;);
+}
+QPushButton:hover{
+background-color:rgba(0,0,0,40);
+}
+QPushButton:pressed{
+background-color:rgba(0,0,0,80);
+margin-left:2px;
+margin-top:2px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="KeepAspect" stdset="0">
+    <number>5</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butRecord">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>184</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+background-color:rgba(0,0,0,10);
+border-image:url(&quot;:/QYRTSPWidget/10_0&quot;);
+}
+QPushButton:hover{
+background-color:rgba(0,0,0,40);
+}
+QPushButton:pressed{
+background-color:rgba(0,0,0,80);
+margin-left:2px;
+margin-top:2px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="KeepAspect" stdset="0">
+    <number>5</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butPano">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>220</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+background-color:rgba(0,0,0,10);
+border-image:url(&quot;:/QYRTSPWidget/11_0&quot;);
+}
+QPushButton:hover{
+background-color:rgba(0,0,0,40);
+}
+QPushButton:pressed{
+background-color:rgba(0,0,0,80);
+margin-left:2px;
+margin-top:2px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="KeepAspect" stdset="0">
+    <number>5</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butStream">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>256</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+background-color:rgba(0,0,0,10);
+border-image:url(&quot;:/QYRTSPWidget/12_0&quot;);
+}
+QPushButton:hover{
+background-color:rgba(0,0,0,40);
+}
+QPushButton:pressed{
+background-color:rgba(0,0,0,80);
+margin-left:2px;
+margin-top:2px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="KeepAspect" stdset="0">
+    <number>5</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
