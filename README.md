@@ -20,3 +20,5 @@ The third update of EShong
 - Add: PTZ call, add, delete, preset, cruise function
 
 
+
+All code copyright belongs to Eshong, so i didn't post source code
